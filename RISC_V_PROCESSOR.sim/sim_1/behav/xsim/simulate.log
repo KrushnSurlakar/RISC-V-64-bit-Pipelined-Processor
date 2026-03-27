@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Loading instruction memory from RV64.hex
+ADDI Test Passed!
+SLLI Test Passed! Shifted past 32 bits!
+SD  Test Passed! Stored massive 64-bit value: 0000000f000000ff
+ADDI Test Passed!
+LD  Test Passed! Fetched all 64 bits!
+ADDW Test Passed! 32-bit math correct!
+SUBW Test Passed! 32-bit negative sign-extended perfectly!
+-------------------------------------------
+Test Finished! Faults: 0
+SUCCESS! 64-bit architecture is fully operational!
+-------------------------------------------
+$stop called at time : 210 ns : File "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sim_1/new/tb_temp.v" Line 64

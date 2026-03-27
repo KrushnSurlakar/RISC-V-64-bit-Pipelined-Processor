@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/Control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/D_FF_enable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF_enable
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/D_FF_enable_Flush.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF_enable_Flush
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/D_FF_flush.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF_flush
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/Data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/Imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/Instr_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/Register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/decode_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/execute_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/fetch_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/load_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/memory_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/store_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module store_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sources_1/new/write_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sim_1/new/tb_temp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_temp
