@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 24 22:12:32 2026
+# Process ID         : 10820
+# Current directory  : C:/Users/krush/Music/RISC_V_PIPELINED
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent41260 C:\Users\krush\Music\RISC_V_PIPELINED\RISC_V_PROCESSOR.xpr
+# Log file           : C:/Users/krush/Music/RISC_V_PIPELINED/vivado.log
+# Journal file       : C:/Users/krush/Music/RISC_V_PIPELINED\vivado.jou
+# Running On         : K_Victus
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7840HS w/ Radeon 780M Graphics     
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16415 MB
+# Swap memory        : 12884 MB
+# Total Virtual      : 29300 MB
+# Available Virtual  : 10801 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_riscv.tcl
+run all
+close_sim
+launch_simulation
+source tb_riscv.tcl
+close_sim
+launch_simulation
+source tb_riscv.tcl
+run all
+close_sim
+launch_simulation
+source tb_riscv.tcl
+run all
+close_sim
+launch_simulation
+source tb_riscv.tcl
+close_sim
+launch_simulation
+source tb_riscv.tcl
+run all
+close_sim
+launch_simulation
+source tb_riscv.tcl
+run all
+close_sim
+launch_simulation
+source tb_riscv.tcl
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sim_1/new/tb_temp.v w ]
+add_files -fileset sim_1 C:/Users/krush/Music/RISC_V_PIPELINED/RISC_V_PROCESSOR.srcs/sim_1/new/tb_temp.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_temp [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_temp.tcl
+close_sim
+launch_simulation
+source tb_temp.tcl
+close_sim
+launch_simulation
+source tb_temp.tcl
+close_sim
+launch_simulation
+source tb_temp.tcl
+close_sim
+launch_simulation
+source tb_temp.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_riscv [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
