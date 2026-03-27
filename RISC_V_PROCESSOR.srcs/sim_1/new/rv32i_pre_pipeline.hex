@@ -1,0 +1,30 @@
+00500093 // PC=00: addi x1, x0, 5
+00A00113 // PC=04: addi x2, x0, 10
+002081B3 // PC=08: add x3, x1, x2
+00302023 // PC=12: sw x3, 0(x0)
+00002203 // PC=16: lw x4, 0(x0)
+00002283 // PC=20: lw x5, 0(x0)
+00128333 // PC=24: add x6, x5, x1
+00630463 // PC=28: beq x6, x6, 8   [FIXED BUG 1] (Jumps to PC=36)
+3E700393 // PC=32: addi x7, x0, 999 
+00100393 // PC=36: addi x7, x0, 1  (x7 = 1)
+00100463 // PC=40: beq x0, x1, 8   (Not Taken)
+00200413 // PC=44: addi x8, x0, 2  (x8 = 2)
+002081B3 // PC=48: add x3, x1, x2
+00330663 // PC=52: beq x6, x3, 12  (Not Taken)
+3E800413 // PC=56: addi x8, x0, 1000
+00200413 // PC=60: addi x8, x0, 2
+008004EF // PC=64: jal x9, 8       [FIXED BUG 2] (Jumps to PC=72)
+3E800513 // PC=68: addi x10, x0, 1000
+00300513 // PC=72: addi x10, x0, 3 (x10 = 3)
+05400593 // PC=76: addi x11, x0, 84 [FIXED BUG 3]
+00058067 // PC=80: jalr x0, 0(x11)  (Jumps to PC=84)
+00208633 // PC=84: add x12, x1, x2 (x12 = 15)
+00C02223 // PC=88: sw x12, 4(x0)
+00002283 // PC=92: lw x5, 0(x0)
+00528663 // PC=96: beq x5, x5, 12  (Jumps to PC=108)
+3E800613 // PC=100: addi x12, x0, 1000
+00100613 // PC=104: addi x12, x0, 1
+00000013 // PC=108: nop
+FE000FE3  // PC=112: beq x0, x0, -4  ← infinite loop, keeps CPU in clean state
+
