@@ -180,7 +180,7 @@ RISC_V_PROCESSOR/
 
 ## ⚙️ Usage & Development Workflow
 
-Once the project is opened in Vivado, you can perform the following key actions:
+Once the project is opened in Xilinx Vivado, you can perform the following key actions:
 
 ### Running Simulation
 
